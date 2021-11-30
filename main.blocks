@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="H8_]*n[X,}8M(n?{1N,e">strip</variable><variable id="#qjD}W.zu2(%b8;$e*(P">rouge</variable><variable id=")4!Zq?1^!8HN;xo_XeoI">vert</variable><variable id="fVh}Shhj2CIXVRxYF#_i">bleu</variable></variables><block type="pxt-on-start" id="Qhw1vI.0IvyM}xNSZ[0!" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="51V=?yQ2ug5P;TCiAuRf"><value name="ID"><shadow type="math_number_minmax" id="WxOt_1jJ8hq;eo`%K?+B"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">69</field></shadow></value></block></statement></block><block type="device_forever" id="5FP.JDo3PAM]axR{#JHQ" x="38" y="191"><statement name="HANDLER"><block type="controls_if" id="KNiV|h4]]B#;|Yju]t6q"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="y8hM*nmdJyl{m~-7R.BZ"><field name="NAME">Button.AB</field></block></value><statement name="DO0"><block type="radio_datagram_send_string" id="6,c[aLK[s)T}T9iW^4*b"><value name="msg"><shadow type="text" id="Xi%Z$[Hmz!ci$#-%9s1u"><field name="TEXT">Stop</field></shadow></value></block></statement></block></statement></block><block type="device_gesture_event" id="Ic/jF)FYDc0AsN1IyABq" x="65" y="462"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="van6y+dTi9uq%MTe+GXh"><value name="msg"><shadow type="text" id="OZE!3!G1)|7a^:PvnxZ#"><field name="TEXT">Stop</field></shadow></value><next><block type="device_show_leds" id="@1f2kZdzkE`lue@)1V%."><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="eY3I~{2I??o!J9]R3c_4" x="473" y="457"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="SSDTMA?{*!/-xC}vV:;/"><value name="msg"><shadow type="text" id="pORXHd9z^lIni196q{I)"><field name="TEXT">Recule</field></shadow></value><next><block type="device_show_leds" id="47X,9{lwHgQ=Y%k3(^|j"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="wH|6G$dx:QyOaYfaW[d-" x="73" y="830"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="9_YGM+0Y-n1]g%a/)wkk"><value name="msg"><shadow type="text" id="Uk?^9Tg%|Q_G0oH1]uah"><field name="TEXT">Droite</field></shadow></value><next><block type="device_show_leds" id="TRRJD^#?W-b@|Yd|H.BU"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id=",+UDVd[^UkN@[4zj6Kt4" x="884" y="847"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="fvn5nF(=aZ|tw*T0uDg7"><value name="msg"><shadow type="text" id="~Q%AKRw]%`~pJ1!x..z,"><field name="TEXT">Gauche</field></shadow></value><next><block type="device_show_leds" id="?|@+m/c,;~s:=lE,MBZ,"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="qiA+7csqWX1TxPf{R@y6" x="111" y="1299"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="l|i1.,YT^jt}xAY9gp8I"><value name="msg"><shadow type="text" id="I-QD%kIEZOfbn?(LtId7"><field name="TEXT">Avance</field></shadow></value><next><block type="device_show_leds" id=")@yH8vR-SB~r4~cxA}Rq"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></statement></block></xml>
